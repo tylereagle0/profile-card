@@ -11,33 +11,39 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Frontend Mentor | Profile card component</title>
   </head>
   <body>
     <section class="central-container">
-      <div class="card-image">
-        <img src="images/bg-pattern-card.svg" alt="a picture of blue circles with varying opacity on a blue background">
-      </div>
       <div class="card-body">
-        <img src="images/image-victor.jpg" alt="A picture of a young black man.">
-        <h1>Victor Crest</h1>
-        <p>26</p>
-        <p>London</p>
-      </div>
-      <div class="profile-stats">
-        <div class="followers">
-          <h1>80k</h1>
-          <p>Followers</p>
-        </div>
-        <div class="likes">
-          <h1>803k</h1>
-          <p>Likes</p>
-        </div>
-        <div class="photos">
-          <h1>1.4k</h1>
-          <p>Photos</p>
+        <img
+          class="profile-picture"
+          src="images/image-victor.jpg"
+          alt="A picture of a young black man."
+        />
+        <h1><strong>Victor Crest</strong>&ensp;26</h1>
+        <p class="location">London</p>
+        <div class="profile-stats"><!-- 
+          --><div class="stat">
+            <h1><strong>80K</strong></h1>
+            <p>Followers</p>
+          </div><!-- 
+        --><div class="stat">
+            <h1><strong>803K</strong></h1>
+            <p>Likes</p>
+          </div><!-- 
+          --><div class="stat">
+            <h1><strong>1.4K</strong></h1>
+            <p>Photos</p>
+          </div>
         </div>
       </div>
     </section>
