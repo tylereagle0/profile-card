@@ -49,6 +49,7 @@ body {
 
 .profile-stats p {
     font-size: 11px;
+    letter-spacing: 2px;
 }
 .profile-stats .stat {
     display: inline-block;
